@@ -4,7 +4,7 @@ I wanted the compliments in my own language, so right now its only in Dutch, but
 ## How to add the compliments to your MagicMirror
 ### Step 1: Check for supported languages
 At the moment there's just one language: 
-- Dutch: nl
+- Dutch ```nl.json```
 
 ### Step 2: Change config
 Open your config:
