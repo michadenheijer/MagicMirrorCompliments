@@ -1,0 +1,25 @@
+{
+        "anytime" : [
+                "Je ziet er geweldig uit vandaag!",
+                "Wat een geweldige dag vandaag!",
+                "Jij maakt vandaag het verschil!"
+        ],
+        "morning" : [
+                "Wat zit je haar weer goed vandaag!",
+                "Begin de dag met een lach!",
+                "Het zal weer een prachtige dag worden!",
+                "Snel, maak je huiswerkt voordat je weg moet!"
+        ],
+        "afternoon" : [
+                "Eindelijk weer thuis, of moet je toch weer weg?",
+                "Middag, niet de avond, niet de ochtend",
+                "Het was een geweldige dag, het wordt een geweldige dag!",
+                "Vergeet niet je huiswerkt te maken!"
+        ],
+        "evening" : [
+                "En toen kwam iedereen thuis, om weer weg te gaan",
+                "Eet smakelijk!",
+                "Waarom huiswerk maken, als het ook niet kan?!",
+                "Jij hebt vandaag het verschil gemaakt"
+        ]
+}
