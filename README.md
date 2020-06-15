@@ -1,27 +1,7 @@
-# MagicMirror-Compliments
-I wanted the MagicMirror compliments in my own language, so here are some translations. Feel free to add your own language!
+**This branch only exists to not break any existing MagicMirror setups, please update the URL from ```master``` to ```main```.**
 
-## How to add the compliments to your MagicMirror
-### Step 1: Check for supported languages
-At the moment there are just three languages: 
-- English ```en.json```
-- German ```de.json```
-- Dutch ```nl.json```
-
-### Step 2: Change config
-Open your config:
-```bash
-sudo nano ~/MagicMirror/config/config.js
-```
-Scroll till you can see the compliments module. It looks something like this:
-```javascript
-{
-    module: "compliments",
-    position: "lower_third"
-},
-```
-Change it to:
-```javascript
+So for example change the complements section in ```config.js```, from:
+```js
 {
     module: "compliments",
     position: "lower_third",
@@ -30,10 +10,19 @@ Change it to:
     }
 },
 ```
-Change ```nl.json``` to your own language like ```en.json``` or ```fr.json```. The abbreviation of your language can be found above.
+To:
+```js
+{
+    module: "compliments",
+    position: "lower_third",
+    config: {
+        remoteFile: "https://raw.githubusercontent.com/michadenheijer/MagicMirrorCompliments/main/nl.json"
+    }
+},
+```
 
-## Credits
-Dutch and English languages by [Micha den Heijer](https://github.com/michadenheijer), 
-German language by [fixing-it](https://github.com/fixing-it).
-# Visit MagicMirror!
-[MagicMirror](https://github.com/MichMich/MagicMirror)
+Change ``nl.json`` for your own language, for example:
+
+- English ```en.json```
+- German ```de.json```
+- Dutch ```nl.json```
