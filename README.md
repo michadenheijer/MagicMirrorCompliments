@@ -7,6 +7,7 @@ At the moment there are just three languages:
 - English ```en.json```
 - German ```de.json```
 - Dutch ```nl.json```
+- Chuvash ```cv.json```
 
 ### Step 2: Change config
 Open your config:
