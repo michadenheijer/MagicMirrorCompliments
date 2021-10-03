@@ -1,4 +1,6 @@
-# MagicMirror-Compliments
+> ⚠️ MagicMirror-Compliments is deprecated, please consider creating your own fork.
+
+# MagicMirror-Compliments [![No Maintenance Intended](https://unmaintained.tech/badge.svg)](https://unmaintained.tech/)
 I wanted the MagicMirror compliments in my own language, so here are some translations. Feel free to add your own language!
 
 ## How to add the compliments to your MagicMirror
@@ -22,6 +24,7 @@ Scroll till you can see the compliments module. It looks something like this:
 },
 ```
 Change it to:
+> ⚠️ MagicMirror-Compliments is deprecated, please consider creating your own fork and using that url as ```remoteFile```.
 ```javascript
 {
     module: "compliments",
@@ -35,6 +38,7 @@ Change ```nl.json``` to your own language like ```en.json``` or ```fr.json```. T
 
 ## Credits
 Dutch and English languages by [Micha den Heijer](https://github.com/michadenheijer), 
-German language by [fixing-it](https://github.com/fixing-it).
+German language by [fixing-it](https://github.com/fixing-it),
+Chuvash language by [mirontoli](https://github.com/mirontoli).
 # Visit MagicMirror!
 [MagicMirror](https://github.com/MichMich/MagicMirror)
